@@ -2,6 +2,9 @@
 import plotly as py
 import plotly.graph_objs as go
 
+# My full name is Sagnik Sinha Roy
+# My UMich uniqname is sagniksr
+
 # Code here should involve creation of the bar chart as specified in instructions
 # And opening / using the CSV file you created earlier with noun data from tweets
 
@@ -39,4 +42,3 @@ if __name__ == "__main__":
     )]
 
     py.offline.plot(data, image_filename=WRITE_FILENAME, image="png", auto_open=False)
-
